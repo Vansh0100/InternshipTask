@@ -1,0 +1,80 @@
+body{
+    color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 50px;
+    height: 50vw;
+    background: linear-gradient(179.51deg, #004dde -36.03%, #02071a 100.31%);
+    align-items: center;
+}
+.col-sm-6{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.card{
+    /* border: 2px solid black; */
+    background: linear-gradient(359.88deg, rgba(16, 40, 81, 0.3) 0.11%, rgba(27, 62, 135, 0.6) 104%);
+    width: 70%;
+    height: 380px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 40px;
+    backdrop-filter: blur(0px) saturate(120%);
+    -webkit-backdrop-filter: blur(0px) saturate(180%);
+}
+.card-header{
+    background: none;
+    border: none;
+}
+.col-md-6{
+    border-bottom: 2px solid rgb(17, 144, 218);
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 2px;
+}
+input[type="text"]{
+    background: none;
+    outline: none;
+    border:none
+    
+}
+input[type="text"]:focus{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+    /* opacity: 0; */
+}
+.btn{
+    background: linear-gradient(0deg, rgba(3, 20, 49, 0.3) 0%, rgba(35, 67, 132, 0.92) 100%);
+    color: white;
+    margin-top: 50px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    height: 30px;
+}
+.circleup{
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+.circledown{
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    right: 70px;
+    top: 70px;
+    /* z-index: 0; */
+}
